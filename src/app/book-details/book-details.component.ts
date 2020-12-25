@@ -32,5 +32,9 @@ export class BookDetailsComponent implements OnInit {
     this.router.navigate(['books']);
   }
 
+  updateBook(id: number){
+    this.router.navigate(['update', id])
+  }
+
 
 }

@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class BookListComponent implements OnInit {
 
   books!: Observable<Book[]>;
-  // name!: string;
+  name!: string;
 
   constructor(private bookService: BookserviceService,
     private router: Router) {}
